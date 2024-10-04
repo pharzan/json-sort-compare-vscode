@@ -1,11 +1,23 @@
-# JSON Sort and Compare
 
-A Visual Studio Code extension to sort and then compare JSON files.
+ # JSON Sort and Compare
+
+If you have two JSON files that should be identical but are hard to compare due to the unordered nature of JSON, this VSCode extension can help by sorting then comparing them making it easier to focus on real content differences.
+
+
+This extension sorts JSON files before comparison to make it easier to spot the differences in JSON files.
 
 ## Features
 
 - Sort JSON objects by their keys.
 - Compare two JSON files and highlight the differences.
+
+## Demo
+
+Here’s a quick demo: two sample JSON files are compared using the extension, demonstrating that only one key-value pair differs. The comparison is then displayed in VSCode’s diff viewer, which can make it difficult to fully grasp the differences between unordered JSON files.
+
+<p align="left">
+    <img src="./images/screen-recording-fast.gif" alt="Logo" width="500" height="300">
+</p>
 
 ## Requirements
 
@@ -13,15 +25,21 @@ A Visual Studio Code extension to sort and then compare JSON files.
 
 ## Usage
 
+### Installation
+You can install the vscode extension from [here](https://marketplace.visualstudio.com/items?itemName=farzan-tinati.json-sort-and-compare).
+
+
 1. Run the "Sort and Compare JSON Files" command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
 2. The extension will prompt you for the first and second file
 3. The extension will sort the JSON objects and display the differences.
 
-## Installation
+## Development
+
+### Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/json-sort-and-compare.git
+    git clone https://github.com/pharzan/json-sort-compare-vscode.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -35,8 +53,6 @@ A Visual Studio Code extension to sort and then compare JSON files.
     ```sh
     npm run compile
     ```
-
-## Development
 
 ### Running the Extension
 

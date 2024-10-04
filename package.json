@@ -1,12 +1,13 @@
 {
   "name": "json-sort-and-compare",
   "displayName": "json sort and compare",
-  "description": "A vscode extension to sort and compare JSON files. ",
-  "version": "0.0.1",
+  "description": "Sort then compare JSON files. ",
+  "version": "0.0.3",
   "author": {
     "name": "Farzan Tinati",
     "email": "farzan.tinati@gmail.com"
   },
+  "publisher": "farzan-tinati",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -14,6 +15,7 @@
     "Other"
   ],
   "main": "./out/extension.js",
+  "icon": "images/logo.png",
   "contributes": {
     "commands": [
       {
