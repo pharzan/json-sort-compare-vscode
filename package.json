@@ -2,7 +2,7 @@
   "name": "json-sort-and-compare",
   "displayName": "json sort and compare",
   "description": "Sort then compare JSON files. ",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "Farzan Tinati",
     "email": "farzan.tinati@gmail.com"

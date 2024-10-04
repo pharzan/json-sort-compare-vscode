@@ -16,7 +16,7 @@ This extension sorts JSON files before comparison to make it easier to spot the 
 Here’s a quick demo: two sample JSON files are compared using the extension, demonstrating that only one key-value pair differs. The comparison is then displayed in VSCode’s diff viewer, which can make it difficult to fully grasp the differences between unordered JSON files.
 
 <p align="left">
-    <img src="./images/screen-recording-fast.gif" alt="Logo" width="500" height="300">
+    <img src="./images/screen-recording-fast.gif" alt="Logo" height="400">
 </p>
 
 ## Requirements
